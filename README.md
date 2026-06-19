@@ -59,3 +59,6 @@ npm.cmd run test:roundtrip
 ## Storage
 
 The core stores the canonical logbook document through AsyncStorage and preserves a corrupt payload under a recovery key before resetting. This matches the current whole-document Flask API. A later production sync phase should move domain entities and mutation queues to SQLite.
+# Fishing-Logbook-Android
+A private, offline-first Android fishing logbook for tracking trips, catches, locations, gear, weather, and photos—all stored securely on your phone with no account or cloud service required.
+This is an Android version of the desktop [Selfhostable Fishing Logbook](https://github.com/cacher300/Selfhostable-Fishing-Logbook) one.
